@@ -3537,7 +3537,7 @@ function Library:CreateWindow(...)
                 CursorOutline.Visible = true;
 
                 while Toggled and ScreenGui.Parent do
-                    InputService.MouseIconEnabled = false;
+                    --InputService.MouseIconEnabled = false;
 
                     local mPos = InputService:GetMouseLocation();
 
